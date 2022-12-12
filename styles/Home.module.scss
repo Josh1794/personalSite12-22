@@ -28,6 +28,43 @@
   flex-grow: 1;
 }
 
+.headerBox {
+  background-color: #222;
+  width: 90vw;
+  border-radius: 10px;
+
+}
+
+.social {
+  a {
+    color: white;
+  }
+  i {
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-transition: color 0.3s; /* For Safari 3.0 to 6.0 */
+    transition: color 0.3s; /* For modern browsers */
+  }
+  i:hover {
+    color: orange;
+  }
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 25pt;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+
+.titleText {
+  color: white;
+  flex: 1;
+  text-align: center;
+
+}
+
 .title a {
   color: #0070f3;
   text-decoration: none;
