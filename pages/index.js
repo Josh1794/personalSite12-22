@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import AboutBox from '../src/components/aboutBox';
 import HeaderBox from '../src/components/headerBox';
+import NavBar from '../src/components/navBar';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -15,9 +17,10 @@ export default function Home() {
           crossOrigin='anonymous'
         />
       </Head>
-
+      <NavBar />
       <main className={styles.main}>
         <HeaderBox />
+        <AboutBox />
       </main>
 
       <footer className={styles.footer}>

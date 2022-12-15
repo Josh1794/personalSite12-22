@@ -6,7 +6,6 @@ export default function HeaderBox() {
       <h1 className={styles.titleText}>Joshua Grossman</h1>
       <div className={styles.social}>
         <a
-          className={styles.sociala}
           aria-label='Linkedin Profile'
           href='https://www.linkedin.com/in/joshua-grossman17/'
           target='_blank'
@@ -15,7 +14,6 @@ export default function HeaderBox() {
           <i className='fab fa-linkedin-in'></i>
         </a>
         <a
-          className={styles.sociala}
           aria-label='Github Profile'
           href='https://github.com/Josh1794'
           target='_blank'
@@ -25,7 +23,6 @@ export default function HeaderBox() {
         </a>
 
         <a
-          className={styles.sociala}
           aria-label='Stack Overflow Profile'
           href='https://stackoverflow.com/users/12751027/josh'
           target='_blank'
