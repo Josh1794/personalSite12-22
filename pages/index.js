@@ -3,6 +3,7 @@ import Image from 'next/image';
 import AboutBox from '../src/components/aboutBox';
 import HeaderBox from '../src/components/headerBox';
 import NavBar from '../src/components/navBar';
+import SkillsBox from '../src/components/skillsBox';
 import styles from '../styles/Home.module.scss';
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
       <main className={styles.main}>
         <HeaderBox />
         <AboutBox />
+        <SkillsBox />
       </main>
 
       <footer className={styles.footer}>
