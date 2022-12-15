@@ -8,6 +8,8 @@ import sassLogo from '../images/sass-logo.png';
 import reactLogo from '../images/react.png';
 import nextLogo from '../images/next.png';
 import reduxLogo from '../images/redux-logo.png';
+import nodeLogo from '../images/nodejs_logo.png';
+import postgresLogo from '../images/postgres.png';
 
 export default function SkillsBox() {
   return (
@@ -113,7 +115,7 @@ export default function SkillsBox() {
             id={styles.splashAnimation}
           >
             <div className={styles.tooltip}>
-              {/* <NodeLogo /> */}
+              <Image src={nodeLogo} alt='Node logo' width={50} height={50} />
               <span className={styles.tooltiptext}>NodeJS</span>
             </div>
           </div>
@@ -123,28 +125,13 @@ export default function SkillsBox() {
             id={styles.splashAnimation}
           >
             <div className={styles.tooltip}>
-              {/* <Express /> */}
-              <span className={styles.tooltiptext}>ExpressJS</span>
-            </div>
-          </div>
-          <div
-            className={styles.skills}
-            data-sal='fade'
-            id={styles.splashAnimation}
-          >
-            <div className={styles.tooltip}>
-              {/* <Postgres /> */}
+              <Image
+                src={postgresLogo}
+                alt='Postgres logo'
+                width={50}
+                height={50}
+              />
               <span className={styles.tooltiptext}>PostgreSQL</span>
-            </div>
-          </div>
-          <div
-            className={styles.skills}
-            data-sal='fade'
-            id={styles.splashAnimation}
-          >
-            <div className={styles.tooltip}>
-              {/* <Mongo /> */}
-              <span className={styles.tooltiptext}>MongoDB</span>
             </div>
           </div>
           <div

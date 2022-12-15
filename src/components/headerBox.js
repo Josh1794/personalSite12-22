@@ -3,7 +3,7 @@ import styles from '../../styles/Home.module.scss';
 export default function HeaderBox() {
   return (
     <div className={styles.headerBox}>
-      <h1 className={styles.titleText}>Joshua Grossman</h1>
+      <h1 className={styles.headerTitle}>Joshua Grossman</h1>
       <div className={styles.social}>
         <a
           aria-label='Linkedin Profile'
