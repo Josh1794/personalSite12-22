@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import AboutBox from '../src/components/aboutBox';
+import ContactBox from '../src/components/contactBox';
 import HeaderBox from '../src/components/headerBox';
 import NavBar from '../src/components/navBar';
 import SkillsBox from '../src/components/skillsBox';
@@ -23,6 +24,7 @@ export default function Home() {
         <HeaderBox />
         <AboutBox />
         <SkillsBox />
+        <ContactBox />
       </main>
 
       <footer className={styles.footer}>

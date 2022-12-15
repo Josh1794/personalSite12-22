@@ -2,132 +2,14 @@
   padding: 0 2rem;
 }
 
-@media (max-width: 999px) {
-  .main{
-    min-height: 100vh;
-    padding: 4rem 0;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-@media (min-width: 1000px) {
-  .main{
-    min-height: 100vh;
-    padding: 4rem 0;
-    width: 100vw;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-}
-
-.skillContent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 0.25em;
-  width: 80vw;
-}
-
-@media (min-width: 1000px) {
-  .skillContent{
-    display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: center;
-  justify-content: center;
-  padding: 10px;
-  border-radius: 0.25em;
-  width: 50vw;
-  }
-}
-
-
-.skills {
-  width: 100px;
-  height: 100px;
-  margin: 0.5em 0.5em 0.5em 0.5em;
+.main{
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: white;
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  border-radius: 0.25em;
-  box-shadow: 3px 3px 8px black;
-}
-
-
-
-#splashAnimation {
-  --sal-duration: 2s;
-  max-width: 100%;
-}
-
-.tooltip {
-  position: relative;
-  display: inline-block;
-  height: 60px;
-  // width: 60px;
-  display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: rgb(40, 40, 40);
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
-  position: absolute;
-  z-index: 1;
-  top: 140%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
 }
 
 .nav{
@@ -240,8 +122,139 @@
     justify-content: center;
     align-items: center;
   }
+}
+
+.skillContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 0.25em;
+  width: 80vw;
+}
+
+@media (min-width: 1000px) {
+  .skillContent{
+    display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 0.25em;
+  width: 50vw;
+  }
+}
 
 
+.skills {
+  width: 100px;
+  height: 100px;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  border-radius: 0.25em;
+  box-shadow: 3px 3px 8px black;
+}
+
+
+
+#splashAnimation {
+  --sal-duration: 2s;
+  max-width: 100%;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  height: 60px;
+  // width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(40, 40, 40);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: 140%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.contactForm{
+  display: flex;
+  flex-direction: column;
+  label{
+  margin-bottom: 5px;
+  margin-top: 5px;
+  }
+  input{
+    background-color: #eaeaea;
+    border-width: 0px;
+    height:30px;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    color: #000;
+  }
+  textarea{
+    background-color: #eaeaea;
+    border-width: 0px;
+    height:50px;
+    border-radius: 10px;
+    padding: 0px 0px 0px 10px;
+    color: #000;
+  }
+  button{
+    margin: 10px 5px 10px 5px;
+
+  }
 }
 
 .title a {
