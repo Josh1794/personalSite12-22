@@ -19,6 +19,7 @@ export default function Home() {
           crossOrigin='anonymous'
         />
       </Head>
+
       <NavBar />
       <main className={styles.main}>
         <HeaderBox />

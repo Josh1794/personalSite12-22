@@ -17,7 +17,7 @@ export default async function handler(req, res) {
     const mailOption = await transporter.sendMail({
       from: `${email}`,
       to: 'josh1794@gmail.com',
-      subject: `Contact form submissionn from ${name}`,
+      subject: `Contact form submission from ${name}`,
       html: `You got a message from
       Email : ${email}
       Name: ${name}
@@ -34,5 +34,5 @@ export default async function handler(req, res) {
 
   // Found the name.
   // Sends a HTTP success code
-  res.status(200).json(req.body);
+  res.status(200).redirect('/');
 }
