@@ -56,7 +56,7 @@ export default function SkillsBox() {
           >
             <div className={styles.tooltip}>
               <Image src={htmlLogo} alt='HTML logo' width={50} height={50} />
-              <span className={styles.tooltiptext}>HTML 5</span>
+              <span className={styles.tooltiptext}>HTML</span>
             </div>
           </div>
           <div
@@ -66,7 +66,7 @@ export default function SkillsBox() {
           >
             <div className={styles.tooltip}>
               <Image src={cssLogo} alt='CSS logo' width={50} height={50} />
-              <span className={styles.tooltiptext}>CSS 3</span>
+              <span className={styles.tooltiptext}>CSS</span>
             </div>
           </div>
           <div

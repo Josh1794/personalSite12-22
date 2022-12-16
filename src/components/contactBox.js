@@ -6,7 +6,7 @@ export default function ContactBox() {
   const [submitterName, setSubmitterName] = useState('');
   const router = useRouter();
   return (
-    <div className={styles.aboutBox}>
+    <div className={styles.contactBox}>
       <h1 aria-label='about me title' className={styles.titleText}>
         Contact Me
       </h1>
