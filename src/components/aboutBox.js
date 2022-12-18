@@ -1,10 +1,19 @@
+import Image from 'next/image';
 import styles from '../../styles/Home.module.scss';
+import profilePic from '../images/profilepic.jpg';
 
 export default function AboutBox() {
   return (
     <div className={styles.aboutBox}>
       <h1 aria-label='about me title' className={styles.titleText}>
         About Me
+        <Image
+          src={profilePic}
+          height={40}
+          width={40}
+          style={{ borderRadius: 25 }}
+          loading={'lazy'}
+        />
       </h1>
       <p aria-label='about me text'>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
