@@ -65,7 +65,7 @@ export default function SkillsBox() {
             id={styles.splashAnimation}
           >
             <div className={styles.tooltip}>
-              <Image src={cssLogo} alt='CSS logo' width={50} height={50} />
+              <Image src={cssLogo} alt='CSS logo' width={40} height={50} />
               <span className={styles.tooltiptext}>CSS</span>
             </div>
           </div>
