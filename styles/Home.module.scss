@@ -35,7 +35,7 @@
   background-color: #222;
   width: 90vw;
   border-radius: 10px;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-bottom: 15px;
   display: flex;
   flex-direction: column;
@@ -166,7 +166,6 @@
 .tooltip {
   position: relative;
   display: inline-block;
-  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,14 +174,14 @@
 .tooltip .tooltiptext {
   visibility: hidden;
   width: 120px;
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(25, 25, 25);
   color: #fff;
   text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+  border-radius: 4px;
+  padding: 5px;
   position: absolute;
   z-index: 1;
-  top: 140%;
+  top: 130%;
   left: 50%;
   margin-left: -60px;
 }
@@ -195,7 +194,7 @@
   margin-left: -5px;
   border-width: 5px;
   border-style: solid;
-  border-color: transparent transparent rgb(40, 40, 40) transparent;
+  border-color: transparent transparent rgb(25, 25, 25) transparent;
 
 }
 
@@ -203,21 +202,7 @@
   visibility: visible;
 }
 
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
-  align-items: center;
-}
 
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
 
 .contactBox {
   background-color: #222;
@@ -280,6 +265,22 @@
     background-color: orange;
     cursor: pointer;
   }
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .title a {
