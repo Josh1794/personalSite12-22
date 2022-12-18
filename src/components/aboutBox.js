@@ -11,7 +11,7 @@ export default function AboutBox() {
           src={profilePic}
           height={40}
           width={40}
-          style={{ borderRadius: 25 }}
+          style={{ borderRadius: 25, marginLeft: 10 }}
           loading={'lazy'}
         />
       </h1>
