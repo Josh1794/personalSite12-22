@@ -1,15 +1,15 @@
 import Image from 'next/image';
 import styles from '../../styles/Home.module.scss';
-import javascriptLogo from '../images/javascript.png';
-import typescriptLogo from '../images/typescript-logo.png';
-import htmlLogo from '../images/HTML5.png';
-import cssLogo from '../images/CSS3.png';
-import sassLogo from '../images/sass-logo.png';
-import reactLogo from '../images/react.png';
-import nextLogo from '../images/next.png';
-import reduxLogo from '../images/redux-logo.png';
-import nodeLogo from '../images/nodejs_logo.png';
-import postgresLogo from '../images/postgres.png';
+import javascriptLogo from '../assets/images/javascript.png';
+import typescriptLogo from '../assets/images/typescript-logo.png';
+import htmlLogo from '../assets/images/HTML5.png';
+import cssLogo from '../assets/images/CSS3.png';
+import sassLogo from '../assets/images/sass-logo.png';
+import reactLogo from '../assets/images/react.png';
+import nextLogo from '../assets/images/next.png';
+import reduxLogo from '../assets/images/redux-logo.png';
+import nodeLogo from '../assets/images/nodejs_logo.png';
+import postgresLogo from '../assets/images/postgres.png';
 
 export default function SkillsBox() {
   return (

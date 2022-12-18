@@ -4,6 +4,7 @@ import AboutBox from '../src/components/aboutBox';
 import ContactBox from '../src/components/contactBox';
 import HeaderBox from '../src/components/headerBox';
 import NavBar from '../src/components/navBar';
+import ResumeBox from '../src/components/resumeBox';
 import SkillsBox from '../src/components/skillsBox';
 import styles from '../styles/Home.module.scss';
 
@@ -26,6 +27,7 @@ export default function Home() {
         <AboutBox />
         <SkillsBox />
         <ContactBox />
+        <ResumeBox />
       </main>
 
       <footer className={styles.footer}>
