@@ -1,10 +1,9 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import AboutBox from '../src/components/aboutBox';
 import ContactBox from '../src/components/contactBox';
+import Footer from '../src/components/footer';
 import HeaderBox from '../src/components/headerBox';
 import NavBar from '../src/components/navBar';
-import ResumeBox from '../src/components/resumeBox';
 import SkillsBox from '../src/components/skillsBox';
 import styles from '../styles/Home.module.scss';
 
@@ -20,7 +19,6 @@ export default function Home() {
           crossOrigin='anonymous'
         />
       </Head>
-
       <NavBar />
       <main className={styles.main}>
         <HeaderBox />
@@ -28,19 +26,7 @@ export default function Home() {
         <SkillsBox />
         <ContactBox />
       </main>
-
-      <footer className={styles.footer}>
-        <a
-          href='https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src='/vercel.svg' alt='Vercel Logo' width={72} height={16} />
-          </span>
-        </a>
-      </footer>
+      <Footer />
     </div>
   );
 }
