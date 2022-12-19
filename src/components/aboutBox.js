@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../../styles/Home.module.scss';
-import profilePic from '../assets/images/profilepic.jpg';
+import profilePic from '../images/profilepic.jpg';
 
 export default function AboutBox() {
   return (

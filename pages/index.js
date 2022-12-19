@@ -27,7 +27,6 @@ export default function Home() {
         <AboutBox />
         <SkillsBox />
         <ContactBox />
-        <ResumeBox />
       </main>
 
       <footer className={styles.footer}>
