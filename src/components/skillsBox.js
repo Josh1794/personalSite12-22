@@ -19,6 +19,26 @@ export default function SkillsBox() {
       </h1>
       <div>
         <div className={styles.skillContent}>
+          {/* SHOULD CONVERT THIS TO A MAPPED OUT OBJECT
+          OBJECT.map((skill)=>{
+            <div
+              className={styles.skills}
+              data-sal='fade'
+              id={styles.splashAnimation}
+            >
+              <div className={styles.tooltip}>
+                <Image
+                  src={skill.link}
+                  alt={sill.altText}
+                  width={50}
+                  height={50}
+                />
+                <span className={styles.tooltiptext}>{skill.text}</span>
+              </div>
+            </div>
+          })
+        */}
+
           <div
             className={styles.skills}
             data-sal='fade'
