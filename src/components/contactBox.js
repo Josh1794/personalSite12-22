@@ -6,6 +6,7 @@ export default function ContactBox() {
   const [submitterName, setSubmitterName] = useState('');
   const router = useRouter();
   return (
+    // COULD STAND TO ADD STRICTER VALIDATION
     <div className={styles.contactBox}>
       <h1 aria-label='about me title' className={styles.titleText}>
         Contact Me
