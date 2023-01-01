@@ -2,8 +2,10 @@ import styles from '../../styles/Home.module.scss';
 
 export default function HeaderBox() {
   return (
-    <div className={styles.headerBox}>
-      <h1 className={styles.headerTitle}>Joshua Grossman</h1>
+    <div className='bg-neutral-800 w-full flex-col flex items-center h-52'>
+      <h1 className='text-5xl font-bold text-black dark:text-white'>
+        Joshua Grossman
+      </h1>
       <div className={styles.social}>
         <a
           aria-label='Linkedin Profile'

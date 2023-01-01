@@ -9,7 +9,7 @@ import styles from '../styles/Home.module.scss';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className='bg-white dark:bg-black'>
       <Head>
         <title>Joshua Grossman</title>
         <meta name='description' content="Joshua Grossman's Personal Website" />
