@@ -13,32 +13,15 @@ import postgresLogo from '../images/postgres.png';
 
 export default function SkillsBox() {
   return (
-    <div className={styles.aboutBox}>
-      <h1 aria-label='about me title' className={styles.titleText}>
+    <div className='flex flex-col w-11/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4'>
+      <h1
+        aria-label='about me title'
+        className='text-2xl text-black dark:text-white flex flex-row items-center self-center'
+      >
         Skills
       </h1>
       <div>
         <div className={styles.skillContent}>
-          {/* SHOULD CONVERT THIS TO A MAPPED OUT OBJECT
-          OBJECT.map((skill)=>{
-            <div
-              className={styles.skills}
-              data-sal='fade'
-              id={styles.splashAnimation}
-            >
-              <div className={styles.tooltip}>
-                <Image
-                  src={skill.link}
-                  alt={sill.altText}
-                  width={50}
-                  height={50}
-                />
-                <span className={styles.tooltiptext}>{skill.text}</span>
-              </div>
-            </div>
-          })
-        */}
-
           <div
             className={styles.skills}
             data-sal='fade'

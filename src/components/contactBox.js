@@ -7,8 +7,11 @@ export default function ContactBox() {
   const router = useRouter();
   return (
     // COULD STAND TO ADD STRICTER VALIDATION
-    <div className={styles.contactBox}>
-      <h1 aria-label='about me title' className={styles.titleText}>
+    <div className='flex flex-col w-11/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4 items-center'>
+      <h1
+        aria-label='about me title'
+        className='text-2xl text-black dark:text-white flex flex-row items-center'
+      >
         Contact Me
       </h1>
       <form
@@ -17,11 +20,17 @@ export default function ContactBox() {
         method='POST'
         action='/api/form'
       >
-        <label htmlFor='name'>Name:</label>
+        <label className='dark:text-white text-black' htmlFor='name'>
+          Name:
+        </label>
         <input id='name' name='name' required type='text' />
-        <label htmlFor='email'>E-mail:</label>
+        <label className='dark:text-white text-black' htmlFor='email'>
+          E-mail:
+        </label>
         <input id='email' type='email' name='email' required />
-        <label htmlFor='message'>Message:</label>
+        <label className='dark:text-white text-black' htmlFor='message'>
+          Message:
+        </label>
         <textarea id='message' name='message' required></textarea>
         <button type='submit'>Submit</button>
       </form>

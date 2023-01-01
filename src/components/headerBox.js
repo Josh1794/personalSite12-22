@@ -2,7 +2,7 @@ import styles from '../../styles/Home.module.scss';
 
 export default function HeaderBox() {
   return (
-    <div className='bg-neutral-800 w-full flex-col flex justify-center items-center h-52'>
+    <div className='bg-neutral-300 dark:bg-neutral-800 w-full flex-col flex justify-center items-center h-52'>
       <h1 className='text-5xl font-bold text-black dark:text-white'>
         Joshua Grossman
       </h1>
