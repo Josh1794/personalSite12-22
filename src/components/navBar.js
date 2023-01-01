@@ -7,7 +7,9 @@ export default function NavBar() {
       {/* NEED TO ADD DARK/LIGHT MODE CONTROL */}
       <h2 className='text-2xl text-orange-400'>Joshua Grossman</h2>
       <Link classname='text-1xl justify-end' href={'/resume'}>
-        <h3 className=' text-black dark:text-white'>My Resume</h3>
+        <h3 className=' text-black dark:text-white hover:text-orange-400 transition-colors'>
+          My Resume
+        </h3>
       </Link>
     </nav>
   );
