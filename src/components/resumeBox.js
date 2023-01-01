@@ -2,8 +2,8 @@ import styles from '../../styles/Home.module.scss';
 
 export default function ResumeBox() {
   return (
-    <div className={styles.resumeBox}>
-      <h1 aria-label='about me title' className={styles.titleText}>
+    <div className='bg-neutral-300 dark:bg-neutral-800 w-full flex-col flex justify-center items-center h-11/12 w-11/12 rounded-lg p-4 self-center'>
+      <h1 className='text-2xl text-black dark:text-white flex flex-row items-center self-center'>
         My Resume
       </h1>
       <iframe
