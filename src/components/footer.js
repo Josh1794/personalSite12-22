@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className={styles.footer}>
       <a target='_blank' rel='noopener noreferrer'>
-        Powered by{' '}
+        Created by{' '}
         <span className={styles.logo}>
           <Image
             src={profilePic}
