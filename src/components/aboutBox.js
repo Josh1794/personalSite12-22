@@ -1,10 +1,9 @@
 import Image from 'next/image';
-import styles from '../../styles/Home.module.scss';
 import profilePic from '../images/profilepic.jpg';
 
 export default function AboutBox() {
   return (
-    <div className='flex flex-col w-11/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4'>
+    <div className='flex flex-col sm:w-11/12 lg:w-8/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4'>
       <h1
         aria-label='about me title'
         className='text-2xl text-black dark:text-white flex flex-row items-center self-center'
@@ -16,7 +15,10 @@ export default function AboutBox() {
           loading={'lazy'}
         />
       </h1>
-      <p className='text-black dark:text-white' aria-label='about me text'>
+      <p
+        className='text-black dark:text-white text-base p-2'
+        aria-label='about me text'
+      >
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
         veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea

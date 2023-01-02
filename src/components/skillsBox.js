@@ -13,7 +13,7 @@ import postgresLogo from '../images/postgres.png';
 
 export default function SkillsBox() {
   return (
-    <div className='flex flex-col w-11/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4'>
+    <div className='flex flex-col sm:w-11/12 lg:w-8/12 bg-neutral-300 dark:bg-neutral-800 rounded-md p-4 m-4 items-center'>
       <h1
         aria-label='about me title'
         className='text-2xl text-black dark:text-white flex flex-row items-center self-center'

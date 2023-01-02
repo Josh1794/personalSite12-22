@@ -2,10 +2,8 @@ import styles from '../../styles/Home.module.scss';
 
 export default function HeaderBox() {
   return (
-    <div className='bg-neutral-300 dark:bg-neutral-800 w-full flex-col flex justify-center items-center h-52'>
-      <h1 className='text-5xl font-bold text-black dark:text-white'>
-        Joshua Grossman
-      </h1>
+    <div className='bg-cover bg-headerBackground bg-neutral-800 shadow-md w-full flex-col flex justify-center items-center h-96'>
+      <h1 className='text-6xl font-bold text-white'>Joshua Grossman</h1>
       <div className={styles.social}>
         <a
           aria-label='Linkedin Profile'
