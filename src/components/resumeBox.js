@@ -14,6 +14,7 @@ export default function ResumeBox() {
           height: '80vh',
         }}
         allowFullScreen
+        loading='lazy'
       />
     </div>
   );
