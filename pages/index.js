@@ -12,9 +12,9 @@ export default function Home() {
     <div className='bg-white dark:bg-black'>
       <Head>
         <title>Joshua Grossman</title>
+        <link rel='icon' href='/favicon.png' />
         <meta name='description' content="Joshua Grossman's Personal Website" />
         {/* NEED TO INVESTIGATE ISSUE WITH ICONS LIKELY NEED TO CONVERY TO REACT LIBRARY */}
-        <link rel='icon' href='/favicon.ico' />
         <script
           src='https://kit.fontawesome.com/569d14e1d2.js'
           crossOrigin='anonymous'
