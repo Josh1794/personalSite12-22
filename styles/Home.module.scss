@@ -65,21 +65,24 @@
   a {
     color: white;
   }
-  i {
-    margin-left: 10px;
-    margin-right: 10px;
-    -webkit-transition: color 0.3s; /* For Safari 3.0 to 6.0 */
-    transition: color 0.3s; /* For modern browsers */
-  }
-  i:hover {
-    color: orange;
-  }
   z-index: 10;
   margin-bottom: 20px;
   font-size: 25pt;
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+
+.socialIcon{
+  color:white;
+  margin-left: 10px;
+  margin-right: 10px;
+  -webkit-transition: color 0.3s; /* For Safari 3.0 to 6.0 */
+  transition: color 0.3s; /* For modern browsers */
+}
+
+.socialIcon:hover{
+  color:orange;
 }
 
 .headerTitle {
@@ -165,6 +168,8 @@
   text-decoration: none;
   color: black;
 }
+
+
 
 #splashAnimation {
   --sal-duration: 2s;

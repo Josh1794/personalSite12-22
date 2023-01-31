@@ -1,4 +1,10 @@
 import styles from '../../styles/Home.module.scss';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faLinkedin,
+  faGithub,
+  faStackOverflow,
+} from '@fortawesome/free-brands-svg-icons';
 
 export default function HeaderBox() {
   return (
@@ -13,7 +19,11 @@ export default function HeaderBox() {
           target='_blank'
           rel='noreferrer noopener'
         >
-          <i className='fab fa-linkedin-in'></i>
+          <FontAwesomeIcon
+            className={styles.socialIcon}
+            icon={faLinkedin}
+            size='md'
+          />
         </a>
         <a
           aria-label='Github Profile'
@@ -21,7 +31,11 @@ export default function HeaderBox() {
           target='_blank'
           rel='noreferrer noopener'
         >
-          <i className='fab fa-github'></i>
+          <FontAwesomeIcon
+            className={styles.socialIcon}
+            icon={faGithub}
+            size='md'
+          />
         </a>
 
         <a
@@ -30,7 +44,11 @@ export default function HeaderBox() {
           target='_blank'
           rel='noreferrer noopener'
         >
-          <i className='fab fa-stack-overflow'></i>
+          <FontAwesomeIcon
+            className={styles.socialIcon}
+            icon={faStackOverflow}
+            size='md'
+          />
         </a>
       </div>
     </div>

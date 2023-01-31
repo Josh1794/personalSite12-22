@@ -10,6 +10,8 @@ import nextLogo from '../images/next.png';
 import reduxLogo from '../images/redux-logo.png';
 import nodeLogo from '../images/nodejs_logo.png';
 import postgresLogo from '../images/postgres.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faGitAlt } from '@fortawesome/free-brands-svg-icons';
 
 export default function SkillsBox() {
   return (
@@ -143,7 +145,7 @@ export default function SkillsBox() {
             id={styles.splashAnimation}
           >
             <div className={styles.tooltip}>
-              <i className='fab fa-github' style={{ fontSize: '60px' }}></i>
+              <FontAwesomeIcon icon={faGithub} size='3x' color='white' />
               <span className={styles.tooltiptext}>Github</span>
             </div>
           </div>
@@ -153,7 +155,7 @@ export default function SkillsBox() {
             id={styles.splashAnimation}
           >
             <div className={styles.tooltip}>
-              <i className='fab fa-git-alt' style={{ fontSize: '60px' }}></i>
+              <FontAwesomeIcon icon={faGitAlt} size='3x' color='white' />
               <span className={styles.tooltiptext}>Git</span>
             </div>
           </div>
