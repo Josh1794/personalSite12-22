@@ -19,13 +19,12 @@ export default function AboutBox() {
         className='text-black dark:text-white text-base p-2'
         aria-label='about me text'
       >
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-        mollit anim id est laborum.
+        I am a software developer with multiple years of exerience working as
+        both a frontend and fullstack developer. I love working with React and
+        React Native, and am always looking to learn and try new things. I am
+        comfortable writing code in Javascipt and Typescript and have experience
+        working with PHP backends as well. Feel free to reach out to me via
+        email or connect on LinkedIn.
       </p>
     </div>
   );
