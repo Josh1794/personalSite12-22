@@ -31,7 +31,7 @@ export default function ContactBox() {
           <label className='dark:text-white text-black' htmlFor='message'>
             Message:
           </label>
-          <textarea id='message' name='message' required></textarea>
+          <textarea id='message' name='message' required />
           <button type='submit'>Submit</button>
         </form>
       </div>
