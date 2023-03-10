@@ -9,7 +9,10 @@ import {
 export default function HeaderBox() {
   return (
     <div className='bg-cover bg-headerBackground bg-neutral-800 shadow-md w-full flex-col flex justify-center items-center h-96'>
-      <h1 className='text-6xl font-bold text-white text-center'>
+      <h1
+        aria-label='Joshua Grossman Title Header'
+        className='text-6xl font-bold text-white text-center'
+      >
         Joshua Grossman
       </h1>
       <div className={styles.social}>
